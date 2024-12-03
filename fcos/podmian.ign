@@ -1,0 +1,1 @@
+{"ignition":{"version":"3.4.0"},"passwd":{"users":[{"groups":["wheel","sudo","systemd-journal"],"name":"admin","sshAuthorizedKeys":["ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPkCuOy23zxf9UKZjC3ZdNPx7rU8TJNNZRjHHYE597E8"]},{"name":"podman"}]},"storage":{"files":[{"path":"/etc/hostname","contents":{"compression":"","source":"data:,podman"},"mode":420}]}}
