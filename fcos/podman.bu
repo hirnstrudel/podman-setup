@@ -1,0 +1,17 @@
+variant: fcos
+version: 1.5.0
+
+passwd:
+  users:
+    - name: admin
+      groups: ["wheel", "sudo", "systemd-journal"]
+      ssh_authorized_keys:
+        - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPkCuOy23zxf9UKZjC3ZdNPx7rU8TJNNZRjHHYE597E8
+    - name: podman
+
+storage:
+  files:
+    - path: /etc/hostname
+      mode: 0644
+      contents:
+        inline: podman
